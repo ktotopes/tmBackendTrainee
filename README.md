@@ -97,9 +97,9 @@
 }
 ```
 ![img.png](img.png)
-2 requests for the same request to save statistics, statistics are stored in the same field if the date is the same.
+#### 2 requests for the same request to save statistics, statistics are stored in the same field if the date is the same.
 ![img_1.png](img_1.png)
-request with a different date.
+#### request with a different date.
 
 ### Statistics restore
 
