@@ -11,7 +11,6 @@
 
 |   Name |    Param     | Value  | Description                  |
 |-------:|:------------:|:-------|:-----------------------------|
-| ACTION | [statistics] | string | What do you want to do       |
 |   from |    [from]    | date   | start date of the period (inclusive) |
 |     to |     [to]     | date   | period end date (inclusive) |
 
@@ -23,8 +22,7 @@
 
 ```html
 
-<form action="http://tmbackendtrainee.test/api/v1" method="get">
-    <input type="hidden" name="action" value="statistics">
+<form action="http://tmbackendtrainee.test/api/v1/statistics" method="get">
     <input type="date" name="from">
     <input type="date" name="to">
     <input type="submit">
@@ -64,7 +62,6 @@
 
 |   Name |    Param     | Value      | Description                                     |
 |-------:|:------------:|:-----------|:------------------------------------------------|
-| ACTION | [statistics] | string     | What do you want to do                          |
 |   date |    [date]    | date       | start date of the period (inclusive)            |
 |  views |   [views]    | bigInteger | number of impressions                                      |
 | clicks |   [clicks]   | bigInteger | number of clicks                                   |
@@ -79,8 +76,7 @@
 
 ```html
 
-<form action="http://tmbackendtrainee.test/api/v1" method="post">
-    <input type="hidden" name="action" value="statistics">
+<form action="http://tmbackendtrainee.test/api/v1/statistics" method="post">
     <input type="number" name="clicks">
     <input type="number" name="views">
     <input type="number" name="cost">
@@ -102,11 +98,6 @@
 #### request with a different date.
 
 ### Statistics restore
-
-|   Name |    Param     | Value      | Description                                     |
-|-------:|:------------:|:-----------|:------------------------------------------------|
-| ACTION | [statistics] | string     | What do you want to do                          |
-
 
 #### Example:
 
