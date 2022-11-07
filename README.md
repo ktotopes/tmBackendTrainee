@@ -116,7 +116,7 @@ will return if the database is empty.
     "response": "Statistics clear"
 }
 ```
-will return if the database is full and cleared successfully
+will return if the database cleared successfully
 
 ## Instructions for launching the application.
 
